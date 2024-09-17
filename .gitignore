@@ -1,0 +1,12 @@
+sos
+sos_test
+doc/html/*
+doc/latex/*
+*.o
+*.d
+*.tab.c
+*.tab.h
+*.yy.c
+*.output
+*.dot
+*.pdf
