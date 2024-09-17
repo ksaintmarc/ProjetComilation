@@ -1,0 +1,5 @@
+# Exemple fonctionnel de programme en SoS
+
+echo $(expr 5 * 2 + -5 / (4-3));
+echo "\n\"\'\n";
+exit

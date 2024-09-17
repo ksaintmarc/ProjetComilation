@@ -1,0 +1,7 @@
+# test_instruction id n'est pas valide
+
+id = 0 ;
+
+if test id then 
+	id = 8 
+fi

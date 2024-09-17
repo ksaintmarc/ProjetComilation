@@ -1,0 +1,5 @@
+# test_instruction operateur2 invalide
+
+until test "1" -nop "2" do
+	i = 8
+done

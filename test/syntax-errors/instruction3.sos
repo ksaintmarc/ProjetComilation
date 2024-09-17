@@ -1,0 +1,3 @@
+# instruction ne peut pas commencer par elif
+
+elif test 1 != 0 then exit

@@ -1,0 +1,10 @@
+# Manque test apres while
+
+i = 3 ;
+j = 3 ;
+
+while ${i} -eq ${j} do 
+	i = 2 ;
+	done
+
+exit

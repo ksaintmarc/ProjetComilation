@@ -1,0 +1,5 @@
+# liste_cas absence de la ) apres le filtre
+
+case 1 in 
+	* id = 1 ;; 
+esac

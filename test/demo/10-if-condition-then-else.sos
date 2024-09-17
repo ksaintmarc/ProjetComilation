@@ -1,0 +1,26 @@
+
+if test 17 -le 42
+then
+    echo "yes"
+else
+    echo "no"
+fi ;
+if test 17 -eq 42
+then
+    echo "no"
+else
+    echo "yes"
+fi ;
+if test "17" != "42"
+then
+    echo "yes"
+else
+    echo "no"
+fi ;
+if test -n "abc"
+then
+    echo "yes"
+else
+    echo "no"
+fi
+

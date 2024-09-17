@@ -1,0 +1,14 @@
+
+fact () { # n
+    local p = 1 ;
+    local i = 2 ;
+    while test ${i} -le $1
+    do
+        p = $(expr ${p} * ${i}) ;
+        i = $(expr ${i} + 1)
+    done ;
+    echo ${p}
+} ;
+
+echo $(fact 5) "=120"
+

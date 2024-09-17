@@ -1,0 +1,6 @@
+among = "+2";
+echo $(expr 5 * ${among} + -5 / (4-3));
+among = ${among} ${among};
+echo ${among};
+echo "\n";
+exit

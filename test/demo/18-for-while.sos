@@ -1,0 +1,14 @@
+
+s = 0 ;
+for i in 1 2 3 4 5
+do
+    j = 1 ;
+    while test ${j} -le ${i}
+    do
+        s = $(expr ${s} + ${j}) ;
+        j = $(expr ${j} + 1)
+    done
+done ;
+x = $(expr ( 5 * 6 * 7 ) / ( 1 * 2 * 3 )) ;
+echo ${s} "=" ${x} "=35"
+

@@ -1,0 +1,4 @@
+declare ch [ 2 ] ;
+ch [ 0 ] = Hello ;
+ch [ 1 ] = World ;
+echo ${ id [ * ] }
